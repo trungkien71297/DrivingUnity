@@ -31,7 +31,7 @@ public class Car : MonoBehaviour
         Debug.Log("OnTriggerEnter");
         if(other.CompareTag("Obstacle"))
         {
-            SceneManager.LoadScene("0");
+            SceneManager.LoadScene(0);
         }
         
     }
